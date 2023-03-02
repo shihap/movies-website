@@ -1,0 +1,164 @@
+body 
+{
+	background: url(7933403.jpg)no-repeat;
+	background-size: cover;
+	font-family: lucida grande ,tahooma,verdana,arial,sans-serif;
+ 	background-color: #e9e9e9;
+	color: white;
+}
+
+body p
+{
+	
+	font-size: 0.8em;
+	line-height: 1.28;
+}
+ 
+#wrapper 
+{
+	height: auto; 
+	width: 1080px;
+	background:rgba(0,0,80,.9);
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+}
+
+/*#banner
+{	background-image:url("D:\Hatem\Software Engineering\Phase 2\saket.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px solid #dedede;
+	height: 200px;
+
+}*/
+ 
+#content_area
+{
+	
+	float: left;
+	width: 750px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+
+
+}
+
+
+footer
+{
+	clear: both;
+	width: auto;
+	height: 40px;
+	padding: 10px;
+	border: none;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0.1em 0 0.1em #130;
+	/*background-image: url();*/
+
+}
+
+
+#navigation
+{
+	height: 60px;
+	border: none;
+	margin-top: 20px;
+	text-shadow: 0.1em 0.1em #133;
+	background:rgba(0,0,80,.9);
+}
+
+#nav
+{
+	list-style: none;	
+
+}
+
+#nav ul
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	display: none;
+
+}
+
+#nav li
+{
+	font-size: 24px;
+	float: left;
+	position: relative;
+	width: 180px;
+	height: 50px;
+
+}
+
+
+#nav a:ling, nav a:active, nav a:visited
+{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav a:hover
+{
+	
+	color: white;
+}
+.movieTable
+{
+	width: 750px;
+	height: 250px;
+	margin: 10px 10px 0;
+	border: 3px solid red;
+	border-radius: 10px;
+	moz-border-radius:10px;
+	
+	color: white;
+}
+.movieTable tr th, .movieTable tr td
+{
+	
+	text-align: left;
+	color: White;
+	padding: 0px 5px;
+	
+}
+
+.movieTable img
+{
+	max-width: 95%;
+	max-height: 110%;
+	padding: 0px 10px 10px 10px;	
+}
+.overviewTable
+{
+	margin:  0  0  0px 30px ;
+	border: 4px solid red;
+	width: 700px;
+}
+.overviewTable tr
+{
+
+	min-height: 100px;
+	min-width: 80px;
+	padding: 4px;
+	
+}
+.overviewTable td
+{
+	min-height: 100px;
+	min-width: 80px;	
+	padding: 4px;
+	border: 1px solid red;
+}
+.inputField{
+	border: 1px solid #fff;
+	width: 50%;
+	margin: auto;
+}
+legend{
+	border: 1px solid #fff;	
+}
